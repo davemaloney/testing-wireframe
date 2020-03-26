@@ -1,14 +1,19 @@
 import React from "react";
 import Hero from "../components/hero.js";
+import AdUnit from "../components/adunit.js";
 import Body from "../components/body.js";
+import Footer from "../components/footer.js";
 
 function News() {
+  window.digitalData.page.pageInfo.pageName = "nba:news";
   return (
     <div>
       <Hero
         title="News"
         text="This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information."
       ></Hero>
+      <AdUnit></AdUnit>
+      <Footer></Footer>
       <Body>
         <p>
           Spicy jalapeno bacon ipsum dolor amet in officia consequat short loin

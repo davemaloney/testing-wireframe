@@ -1,3 +1,9 @@
+# Testing Wireframe
+
+This is a React-based wireframe for testing various plugins.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

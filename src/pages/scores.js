@@ -1,14 +1,19 @@
 import React from "react";
 import Hero from "../components/hero.js";
+import AdUnit from "../components/adunit.js";
 import Body from "../components/body.js";
+import Footer from "../components/footer.js";
 
 function Scores() {
+  window.digitalData.page.pageInfo.pageName = "nba:scores";
   return (
     <div>
       <Hero
         title="Scores"
         text="This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information."
       ></Hero>
+      <AdUnit></AdUnit>
+      <Footer></Footer>
       <Body>
         <p>
           False trevally snakehead bull trout eeltail catfish peamouth false cat

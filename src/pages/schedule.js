@@ -1,14 +1,19 @@
 import React from "react";
 import Hero from "../components/hero.js";
+import AdUnit from "../components/adunit.js";
 import Body from "../components/body.js";
+import Footer from "../components/footer.js";
 
 function Schedule() {
+  window.digitalData.page.pageInfo.pageName = "nba:schedule";
   return (
     <div>
       <Hero
         title="Schedule"
         text="This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information."
       ></Hero>
+      <AdUnit></AdUnit>
+      <Footer></Footer>
       <Body>
         <p>
           Chocolate tiramisu caramels cotton candy macaroon powder. Cheesecake

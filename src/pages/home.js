@@ -1,8 +1,11 @@
 import React from "react";
 import Hero from "../components/hero.js";
+import AdUnit from "../components/adunit.js";
 import Body from "../components/body.js";
+import Footer from "../components/footer.js";
 
 function Home() {
+  window.digitalData.page.pageInfo.pageName = "nba:home";
   return (
     <div>
       <Hero
@@ -11,6 +14,8 @@ function Home() {
         buttonText="Learn More"
         link="/video"
       ></Hero>
+      <AdUnit></AdUnit>
+      <Footer buttonText="Cookie Settings"></Footer>
       <Body>
         <p>
           Inspect anything brought into the house scamper rub butt on table give
