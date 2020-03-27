@@ -2,7 +2,9 @@ import React from "react";
 import { Container, Button } from "react-bootstrap";
 
 function footerClick() {
-  window.OneTrust.ToggleInfoDisplay();
+  if (window._satellite) {
+    window._satellite.track("cookie preferences");
+  }
 }
 
 function FooterButton(props) {
