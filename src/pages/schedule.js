@@ -14,7 +14,7 @@ function Schedule() {
       ></Hero>
       <AdUnit></AdUnit>
       <Footer></Footer>
-      <Body>
+      <Body title="Schedule">
         <p>
           Chocolate tiramisu caramels cotton candy macaroon powder. Cheesecake
           apple pie cake gummies cheesecake. Tootsie roll sesame snaps pudding.
