@@ -14,7 +14,7 @@ function Video() {
       ></Hero>
       <AdUnit></AdUnit>
       <Footer></Footer>
-      <Body title="Video">
+      <Body title="Video" linkDestination="/" linkText="Home">
         <p>
           Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh
           onion daikon amaranth tatsoi tomatillo melon azuki bean garlic. Gumbo

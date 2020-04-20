@@ -14,7 +14,7 @@ function Scores() {
       ></Hero>
       <AdUnit></AdUnit>
       <Footer></Footer>
-      <Body title="Scores">
+      <Body title="Scores" linkDestination="/video" linkText="Video">
         <p>
           False trevally snakehead bull trout eeltail catfish peamouth false cat
           shark? Panga tompot blenny smelt-whiting South American Lungfish

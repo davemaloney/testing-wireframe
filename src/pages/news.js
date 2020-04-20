@@ -14,7 +14,7 @@ function News() {
       ></Hero>
       <AdUnit></AdUnit>
       <Footer></Footer>
-      <Body title="News">
+      <Body title="News" linkDestination="/schedule" linkText="Schedule">
         <p>
           Spicy jalapeno bacon ipsum dolor amet in officia consequat short loin
           drumstick. Pork loin laboris porchetta cupidatat flank. Ut tempor quis

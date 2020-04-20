@@ -16,7 +16,7 @@ function Home() {
       ></Hero>
       <AdUnit></AdUnit>
       <Footer buttonText="Cookie Settings"></Footer>
-      <Body title="Home">
+      <Body title="Home" linkDestination="/news" linkText="News">
         <p>
           Inspect anything brought into the house scamper rub butt on table give
           me some of your food give me some of your food give me some of your
