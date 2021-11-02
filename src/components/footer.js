@@ -10,7 +10,12 @@ function footerClick() {
 function FooterButton(props) {
   return (
     <p className="text-center">
-      <Button onClick={footerClick} href={props.link} variant="primary">
+      <Button
+        onClick={footerClick}
+        href={props.link}
+        variant="primary"
+        className="ot-sdk-show-settings"
+      >
         {props.buttonText ? props.buttonText : "Cookie Settings"}
       </Button>
     </p>

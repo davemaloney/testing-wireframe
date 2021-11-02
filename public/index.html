@@ -15,6 +15,28 @@
       };
     </script>
     <meta charset="utf-8" />
+    <script src="https://cdn.nba.com/user-consent/index.min.js"></script>
+    
+    <script type="text/javascript">
+      (function initalizeUserConsent(win) {
+        // Set required parameters
+        win.WM.UserConsentConfig = {
+          brand: "NBA",
+          cookieDomain: "." + window.location.host, // or the relevant domain
+          domId: "d0494fd0-8921-497a-8323-e3d29775ce1b-test", // or the relevant OneTrust account
+          src: "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+        }
+
+        // If your site cannot provide the country ID with a cookie, but will
+        // provide the user's country code via a window object, set that here.
+        // NBA.com uses window._esi.country
+        win.WM.UserConsentConfig.countryCode = window._esi ? window._esi.country : "US",
+
+          // Call init()
+          win.WM.UserConsent.init(win.WM.UserConsentConfig);
+
+      })(window);
+    </script>
     <script
       src="//assets.adobedtm.com/82bf3c13a525/d1b71df959f2/launch-217d2cf7abb3-development.min.js"
       async
@@ -46,7 +68,7 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       window.document.addEventListener(
         "AdFuelCreated",
         function (e) {
@@ -57,7 +79,7 @@
         },
         false
       );
-    </script>
+    </script> -->
     <div id="root"></div>
   </body>
 </html>
